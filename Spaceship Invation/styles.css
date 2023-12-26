@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #996666;
+}
+
+#gameCanvas {
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+#gameOptions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    z-index: 2;
+}
+
+canvas {
+    border: 1px solid white;
+    background-color: #222;
+}
+
+#scoreContainer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    z-index: 2;
+}
+
+#timerContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    z-index: 2;
+}
+
+#startButton {
+    position: absolute;
+    top: 10px;
+    left: 50%; /* Position at the horizontal center */
+    transform: translateX(-50%); /* Center horizontally */
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
